@@ -1,0 +1,39 @@
+# Системные файлы
+.DS_Store
+*.log
+*.iws
+*.iml
+*.ipr
+misc.xml
+HELP.md
+
+# Environment
+.env
+.env.*
+
+# Build artifacts
+bin/
+build/
+out/
+.gradle/
+*.bin
+*.lock
+
+# Исключения для важных файлов
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Исключения для исходного кода
+!**/src/main/**
+!**/src/test/**
+
+# Node.js
+node_modules/
+.svelte-kit/
+package/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+.idea/

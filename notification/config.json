@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "${JOB_NAME}",
+    "environment": "QU Guru Jenkins",
+    "comment": "Build with: ${BROWSER} version:${BROWSER_VERSION} and windowSize:${BROWSER_WINDOW_SIZE}",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "SecretInJenkins",
+    "chat": "SecretInJenkins",
+    "replyTo": ""
+  }
+}
